@@ -1,14 +1,14 @@
 package com.callor.iolist.models;
 
 public class IolistDto {
-	public long ioSEQ;//	NUMBER
-	public String ioDate;//	VARCHAR2(10)
-	public String ioTime;//	VARCHAR2(10)
-	public String ioBuId;//	VARCHAR2(10)
-	public String ioPCode;//	VARCHAR2(13)
-	public int ioQuan;//	NUMBER
-	public int ioPrice;//	NUMBER
-	public int ioTotal;//	NUMBER
+	public long ioSEQ;		//	NUMBER
+	public String ioDate;	//	VARCHAR2(10)
+	public String ioTime;	//	VARCHAR2(10)
+	public String ioBuId;	//	VARCHAR2(10)
+	public String ioPCode;	//	VARCHAR2(13)
+	public int ioQuan;		//	NUMBER
+	public int ioPrice;		//	NUMBER
+	public int ioTotal;		//	NUMBER
 	public IolistDto() {
 		super();
 		// TODO Auto-generated constructor stub
