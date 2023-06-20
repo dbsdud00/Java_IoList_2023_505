@@ -8,10 +8,10 @@ public class BuyerSQL {
 			 " INSERT INTO tbl_buyer (buid, buname, butel , buaddr) "
 			+ " VALUES (#{buId}, #{buName},#{buTel}, #{buAddr}) ";
 	public static final String UPDATE = 
-			" UPDATE "+ DBContract.TABLE.BUYER + "SET " 
+			" UPDATE "+ DBContract.TABLE.BUYER + " SET " 
 			+ " buName	= #{buName}, "
 			+ " buTel	= #{buTel}, "
-			+ " buAddr	= #{buAddr}, "
+			+ " buAddr	= #{buAddr} "
 			+ " WHERE buId	= #{buId} ";
 	
 }
